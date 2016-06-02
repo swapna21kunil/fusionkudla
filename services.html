@@ -1,0 +1,307 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Fusion Kudla</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Fusion Kudla" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- js -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<!-- //js -->
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!-- start-smoth-scrolling -->
+<link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+</head>
+	
+<body>
+<!-- banner-body -->
+	<div class="banner-body">
+		<div class="container">
+			<!-- banner -->
+				<div class="banner">
+					<div class="col-md-3 banner-left">
+						<ul class="menu">
+							<li class="item1"><a href="#"><img class="arrow-img" src="images/menu.png" alt=""/></a>
+								<ul class="cute">
+									<li><a href="index.html">Home</a></li>
+									<li><a href="services.html" class="active">Services</a></li>
+									<li><a href="index.html">Menu</a></li>
+									<li><a href="index.html">About Us</a></li>
+									<li><a href="#contact" class="scroll">Contact</a></li>
+								</ul>
+							</li>
+						</ul>
+						<h2>Services</h2>
+					</div>
+					<div class="col-md-9 banner-right">
+						<a href="index.html"><img src="images/logo.png" alt=" " /></a>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+					<!--initiate accordion-->
+					<script type="text/javascript">
+						$(function() {
+							var menu_ul = $('.menu > li > ul'),
+								   menu_a  = $('.menu > li > a');
+							menu_ul.hide();
+							menu_a.click(function(e) {
+								e.preventDefault();
+								if(!$(this).hasClass('active')) {
+									menu_a.removeClass('active');
+									menu_ul.filter(':visible').slideUp('normal');
+									$(this).addClass('active').next().stop(true,true).slideDown('normal');
+								} else {
+									$(this).removeClass('active');
+									$(this).next().stop(true,true).slideUp('normal');
+								}
+							});
+						
+						});
+					</script>
+			<!-- //banner -->
+			<!-- services -->
+				<div class="about service">
+					<!-- services -->
+					<div class="services">
+						<div class="services-grid">
+							<h3 style="margin-bottom: -35px">What We Offer</h3>
+							<div class="services-grd">
+								<div class="col-sm-10 col-sm-offset-1 services-grd1">
+										<p style="margin-bottom: 5px; margin-top: 5px; text-align: center;"><b>About FOOD</b></p>
+										<p style="text-align: left; margin-bottom: 25px;" >
+											Would be presenting a fusion food by selecting the best &famous food across world.We will combine international food with indian flavour & make a new food.<br>
+									     	For instance 1:-TACO(finger food-Mexican food)-tortilla+Mexican toppings<br>						
+									    	 FUSION KUDLA:-Tortillas +Indian flavour<br>
+
+									     	2:-Thukpa (Tibetan/Nepali noodle soup)-Noodles,soup & Tibetaian flavour<br>
+									         Fusion Kudla :-Noodles+South indiaan flavour(veg& non veg)<Br>					   
+									     	3:-Momos/Dumpling/Dim-sum(chinese food) <br>
+									         Fusion Kudla:-fillings with Indian Masala<br>			
+									         Peruvian cuisine/chinese cuisine/mexican cusine/afghan cuisine/African cusine & many more..........</p>
+								</div>
+								<div class="col-md-4 services-grd1">
+									<div class="col-xs-3 services-grd1-left">
+										<span class="glyphicon glyphicon-send" aria-hidden="true"></span>
+									</div>
+									<div class="col-xs-9 services-grd1-right">
+										<h4>Speed service</h4>
+										<p> We live in a day and age where everything is received in an instant through technology, smartphones, and applications. Speed has become the norm, which is why Fusion kudla  have come to expect the same speed of service at your favorite restaurant without losing the quality.</p>
+									</div>
+									<div class="clearfix"> </div>
+								</div>
+								<div class="col-md-4 services-grd1">
+									<div class="col-xs-3 services-grd1-left">
+										<span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
+									</div>
+									<div class="col-xs-9 services-grd1-right">
+										<h4>International Food </h4>
+										<p> Tour the Food World with Global Recipe Favorites including Caribbean, Portuguese, Indian, Southern, Thai, Vietnamese Cookery & More............</p>
+									</div>
+									<div class="clearfix"> </div>
+								</div>
+								<div class="col-md-4 services-grd1">
+									<div class="col-xs-3 services-grd1-left">
+										<span class="glyphicon glyphicon-filter" aria-hidden="true"></span>
+									</div>
+									<div class="col-xs-9 services-grd1-right">
+										<h4>Filter Kappi</h4>
+										<p> one cup a day, either an espresso or cappuccino.............</p>
+									</div>
+									<div class="clearfix"> </div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="services-grd">
+								<div class="col-md-4 services-grd1">
+									<div class="col-xs-3 services-grd1-left">
+										<span class="glyphicon glyphicon-hourglass" aria-hidden="true"></span>
+									</div>
+									<div class="col-xs-9 services-grd1-right">
+										<h4>Time</h4>
+										<p> Time is as important as breath in our life. We should utilize our food time in good & healthy Food.The home of hundreds of delicious, healthy recipes and recipe makeovers.Try out inspirational healthy dishes, from puddings to pies.....
+									</p>
+									</div>
+									<div class="clearfix"> </div>
+								</div>
+								<div class="col-md-4 services-grd1">
+									<div class="col-xs-3 services-grd1-left">
+										<span class="glyphicon glyphicon-cloud" aria-hidden="true"></span>
+									</div>
+									<div class="col-xs-9 services-grd1-right">
+										<h4>Food With Integrity</h4>
+										<p> Fusion Kudla change the way people think about what they eat.Great transparency in our Food from supply chain to food chain </p>
+									</div>
+									<div class="clearfix"> </div>
+								</div>
+								<div class="col-md-4 services-grd1">
+									<div class="col-xs-3 services-grd1-left">
+										<span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+									</div>
+									<div class="col-xs-9 services-grd1-right">
+										<h4>Soothing to the eye</h4>
+										<p>We are committed to set new standards with our unique strength of thought into amazing ambience with artistic vibes</p>
+									</div>
+									<div class="clearfix"> </div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<div class="services-overview">
+							<h3>Service Overview</h3>
+							<div class="services-overview-grids">
+								<div class="col-md-3 services-overview-grid">
+									<div class="services-overview-grd">
+										<img src="images/Italian-1.jpg" alt=" " class="img-responsive" />
+										<div class="services-overview-gd">
+											
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 services-overview-grid">
+									<div class="services-overview-grd">
+										<img src="images/kheer.jpg" alt=" " class="img-responsive" />
+										<div class="services-overview-gd">
+											
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 services-overview-grid">
+									<div class="services-overview-grd">
+										<img src="images/roasted baigan-1.jpg" alt=" " class="img-responsive" />
+										<div class="services-overview-gd">
+											
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 services-overview-grid">
+									<div class="services-overview-grd">
+										<img src="images/51.jpg" alt=" " class="img-responsive" />
+										<div class="services-overview-gd">
+											
+										</div>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="services-overview-grids">
+								<div class="col-md-3 services-overview-grid">
+									<div class="services-overview-grd">
+										<img src="images/6.jpg" alt=" " class="img-responsive" />
+										<div class="services-overview-gd">
+											
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 services-overview-grid">
+									<div class="services-overview-grd">
+										<img src="images/7.jpg" alt=" " class="img-responsive" />
+										<div class="services-overview-gd">
+											
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 services-overview-grid">
+									<div class="services-overview-grd">
+										<img src="images/4.jpg" alt=" " class="img-responsive" />
+										<div class="services-overview-gd">
+											
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 services-overview-grid">
+									<div class="services-overview-grd">
+										<img src="images/2.jpg" alt=" " class="img-responsive" />
+										<div class="services-overview-gd">
+											
+										</div>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+				<!-- //services -->
+				<!-- contact -->
+					<div id="contact" class="contact ser">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15558.740762539057!2d74.85178276950641!3d12.863598324093124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba35bcd0bdc7619%3A0x47f98562f6bf8083!2sKankanady%2C+Mangaluru%2C+Karnataka!5e0!3m2!1sen!2sin!4v1462781561693" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+						<div class="map-color">
+						</div>
+						<div class="map-grids">
+							<h3>Contact Us</h3>
+							<div class="inp-form">
+								<form>
+									<textarea value="Message:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}" required="">Message..</textarea>
+									<input type="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
+									<input type="email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
+									<input type="submit" value="Send">
+								</form>
+							</div>
+							<h4>Newsletter</h4>
+							<p>Enter your email and subscribe to our newsletter and never miss any updates</p>
+							<div class="mail-sub">
+								<form>
+									<input typ-e="email" value="Email Address" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email Address';}" required="">
+									<input type="submit" value="">
+									<div class="clearfix"> </div>
+								</form>
+							</div>
+							<div class="footer">
+								<div class="footer-left">
+									<p>© 2016 Fusion Kudla. All rights reserved | Design by swapna kunil</p>
+								</div>
+								<div class="footer-right">
+									<ul>
+										<li><a href="#" class="facebook"> </a></li>
+										<li><a href="#" class="twitter"> </a></li>
+										<li><a href="#" class="p"> </a></li>
+										<li><a href="#" class="g"> </a></li>
+									</ul>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+				<!-- //contact -->
+				</div>
+			<!-- //services -->
+		</div>
+	</div>
+<!-- //banner-body -->
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //here ends scrolling icon -->
+</body>
+</html>
